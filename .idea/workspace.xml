@@ -5,54 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="accd1fb2-d994-4637-9a37-20e8f0d1ab15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bedrock/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/src/main/java/com/test/bedrock/BedrockApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/src/main/java/com/test/bedrock/config/ChatClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/src/main/java/com/test/bedrock/controller/ChatController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/src/main/java/com/test/bedrock/controller/PromptStuffingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/src/main/java/com/test/bedrock/controller/PromptTemplateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/src/test/java/com/test/bedrock/BedrockApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/openai/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/main/java/com/smartcore/openai/OpenaiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/main/java/com/smartcore/openai/controller/ChatController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openai/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/src/main/java/com/smartcore/openai/OpenaiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/src/main/java/com/smartcore/openai/controller/ChatController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/openai/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/src/test/java/com/smartcore/openai/OpenaiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/target/classes/com/smartcore/openai/OpenaiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openai/target/classes/com/smartcore/openai/controller/ChatController.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/openai/src/main/java/com/test/openai/controller/ChatController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Yp1234567789"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yp1234567789&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Yp1234567789/spring-prep-projects.git",
-    "accountId": "2f9f0823-48c8-4f58-9229-56caa4012252"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Yp1234567789/spring-prep-projects.git&quot;,
+    &quot;accountId&quot;: &quot;2f9f0823-48c8-4f58-9229-56caa4012252&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3AItCGxDDJU85Rjj5ywNuOfZ2Sg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,9 +48,22 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "spring-ai-practice1"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="openai" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="openai" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="accd1fb2-d994-4637-9a37-20e8f0d1ab15" name="Changes" comment="" />
