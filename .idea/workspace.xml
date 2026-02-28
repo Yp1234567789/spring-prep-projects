@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="accd1fb2-d994-4637-9a37-20e8f0d1ab15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/openai/src/main/java/com/test/openai/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/openai/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
