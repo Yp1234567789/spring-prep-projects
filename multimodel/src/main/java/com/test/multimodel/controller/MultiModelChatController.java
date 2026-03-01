@@ -1,4 +1,4 @@
-package com.test.openai.controller;
+package com.test.multimodel.controller;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -26,7 +26,7 @@ public class MultiModelChatController  {
 
         return openAiChatClient.prompt(message).call().content();
     }
-    @GetMapping("/openai/chat")
+    @GetMapping("/bedrock/chat")
     public String bedrockAIChat(@RequestParam("message") String message) {
 
         return bedrockChatClient.prompt(message).call().content();

@@ -9,5 +9,4 @@ public class MultiModelApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MultiModelApplication.class, args);
 	}
-
 }
