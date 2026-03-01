@@ -1,4 +1,4 @@
-package com.test.openai;
+package com.test.bedrock;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BedrockApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OpenaiApplication.class, args);
+		SpringApplication.run(BedrockApplication.class, args);
 	}
 
 }
+

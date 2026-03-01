@@ -4,42 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="accd1fb2-d994-4637-9a37-20e8f0d1ab15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bedrock/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bedrock/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bedrock/src/test/java/com/test/openai/OpenaiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bedrock/src/test/java/com/test/bedrock/BedrockApplicationTests.java" afterDir="false" />
+    <list default="true" id="ce7984b1-e102-4c5f-9564-a545ed6f668a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bedrock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bedrock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bedrock/src/main/java/com/test/bedrock/BedrockApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bedrock/src/main/java/com/test/bedrock/BedrockApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multimodel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multimodel/src/main/java/com/test/multimodel/MultimodelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/multimodel/src/main/java/com/test/multimodel/MultiModelApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multimodel/src/main/java/com/test/multimodel/controller/MultiModelChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/multimodel/src/main/java/com/test/multimodel/controller/MultiModelChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multimodel/src/test/java/com/test/multimodel/MultimodelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/multimodel/src/test/java/com/test/multimodel/MultiModelApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openai/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/openai/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Yp1234567789&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Yp1234567789"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Yp1234567789/spring-prep-projects.git&quot;,
-    &quot;accountId&quot;: &quot;2f9f0823-48c8-4f58-9229-56caa4012252&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Yp1234567789/spring-prep-projects.git",
+    "accountId": "2f9f0823-48c8-4f58-9229-56caa4012252"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="3AItCGxDDJU85Rjj5ywNuOfZ2Sg" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3AJrNaW3wl2yxz59Wwy3TdBhriU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,29 +47,51 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="openai" />
+  <component name="RunManager" selected="Application.bedrock">
+    <configuration name="bedrock" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.test.bedrock.BedrockApplication" />
+      <module name="bedrock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bedrock" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="openai" />
-      <option name="filePath" />
-      <method v="2" />
+    <configuration name="multimodel" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.test.multimodel.MultiModelApplication" />
+      <module name="multimodel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multimodel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <configuration name="openai" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.test.openai.OpenaiApplication" />
+      <module name="openai" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/openai" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.bedrock" />
+      <item itemvalue="Application.multimodel" />
+      <item itemvalue="Application.openai" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="accd1fb2-d994-4637-9a37-20e8f0d1ab15" name="Changes" comment="" />
-      <created>1772291784725</created>
+      <changelist id="ce7984b1-e102-4c5f-9564-a545ed6f668a" name="Changes" comment="" />
+      <created>1772321476131</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1772291784725</updated>
+      <updated>1772321476131</updated>
     </task>
     <servers />
   </component>

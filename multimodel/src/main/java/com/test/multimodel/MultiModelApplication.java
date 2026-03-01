@@ -1,13 +1,13 @@
-package com.test.openai;
+package com.test.multimodel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OpenaiApplication {
+public class MultiModelApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OpenaiApplication.class, args);
+		SpringApplication.run(MultiModelApplication.class, args);
 	}
 
 }
