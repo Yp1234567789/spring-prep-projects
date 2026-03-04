@@ -1,0 +1,33 @@
+package com.test.springai.entity;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+
+@Entity
+@Getter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Table(name="help_desk_ticket")
+public class HelpDeskTicket {
+    @Id
+    @GeneratedValue(strategy =  GenerationType.IDENTITY)
+    private Long id;
+
+    private String username;
+
+    private String issue;
+
+    private String status;
+
+    private LocalDateTime createdAt;
+
+    private LocalDateTime eta;
+
+
+}

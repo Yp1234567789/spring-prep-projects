@@ -1,0 +1,3 @@
+2026-03-02 18:09:58.759923-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "ISSUE CHARACTER VARYING(255)": "U&'Summary: Account locked \\2014 cannot sign in\\000aCompany username: test\\000aE... (365)"; SQL statement:
+insert into help_desk_ticket (created_at,eta,issue,status,username,id) values (?,?,?,?,?,default) [22001-240]

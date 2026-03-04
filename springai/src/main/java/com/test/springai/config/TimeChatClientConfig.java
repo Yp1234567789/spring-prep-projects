@@ -2,6 +2,7 @@ package com.test.springai.config;
 
 import com.test.springai.advisors.TokenUsageAuditAdvisor;
 import com.test.springai.rag.PIIMaskingDocumentPostProcessor;
+import com.test.springai.tools.TimeTools;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
@@ -20,32 +21,17 @@ import java.util.List;
 
 
 @Configuration
-public class ChatMemoryChatClientConfig {
-    @Bean
-    ChatMemory chatMemory(JdbcChatMemoryRepository jdbcChatMemoryRepository) {
-        return MessageWindowChatMemory.builder().maxMessages(10)
-                .chatMemoryRepository(jdbcChatMemoryRepository).build();
-    }
+public class TimeChatClientConfig {
 
-    @Bean("chatMemoryChatClient")
-    public ChatClient chatClient(ChatClient.Builder chatClientBuilder, ChatMemory chatMemory,RetrievalAugmentationAdvisor retrievalAugmentationAdvisor) {
+    @Bean("timeChatClient")
+    public ChatClient chatClient(ChatClient.Builder chatClientBuilder, ChatMemory chatMemory, TimeTools timeTools) {
         Advisor loggerAdvisor = new SimpleLoggerAdvisor();
         Advisor tokenUsingAuditAdvisor = new TokenUsageAuditAdvisor();
         Advisor memoryAdvisor = MessageChatMemoryAdvisor.builder(chatMemory).build();
         return chatClientBuilder
-                .defaultAdvisors(List.of(loggerAdvisor, memoryAdvisor,tokenUsingAuditAdvisor,retrievalAugmentationAdvisor))
+                .defaultTools(timeTools)
+                .defaultAdvisors(List.of(loggerAdvisor, memoryAdvisor,tokenUsingAuditAdvisor))
                 .build();
     }
-    @Bean
-    RetrievalAugmentationAdvisor retrievalAugmentationAdvisor(VectorStore vectorStore,
-                                                              ChatClient.Builder chatClientBuilder) {
-        return RetrievalAugmentationAdvisor.builder()
-                .queryTransformers(TranslationQueryTransformer.builder()
-                        .chatClientBuilder(chatClientBuilder.clone())
-                        .targetLanguage("english").build())
-                .documentRetriever(VectorStoreDocumentRetriever.builder().vectorStore(vectorStore)
-                        .topK(3).similarityThreshold(0.5).build())
-                .documentPostProcessors(PIIMaskingDocumentPostProcessor.builder())
-                .build();
-    }
+
 }

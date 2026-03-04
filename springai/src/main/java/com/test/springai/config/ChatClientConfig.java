@@ -1,6 +1,6 @@
 package com.test.springai.config;
 
-import com.test.springai.advisors.TokenUsingAuditAdvisor;
+import com.test.springai.advisors.TokenUsageAuditAdvisor;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;
 import org.springframework.ai.chat.prompt.ChatOptions;
@@ -21,7 +21,7 @@ public class ChatClientConfig {
                 .build();
         return chatClientBuilder
                 .defaultOptions(options)
-                .defaultAdvisors(List.of(new SimpleLoggerAdvisor(),new TokenUsingAuditAdvisor()))
+                .defaultAdvisors(List.of(new SimpleLoggerAdvisor(),new TokenUsageAuditAdvisor()))
                 .defaultSystem("""
                         You are an internal HR assistant. Your role is to help\s
                         employees with questions related to HR policies, such as\s

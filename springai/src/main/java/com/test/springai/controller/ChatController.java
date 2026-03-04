@@ -1,6 +1,5 @@
 package com.test.springai.controller;
 
-import com.test.springai.advisors.TokenUsingAuditAdvisor;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
