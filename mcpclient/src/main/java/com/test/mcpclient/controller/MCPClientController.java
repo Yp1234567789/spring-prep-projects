@@ -18,7 +18,7 @@ public class MCPClientController {
     }
 
     @GetMapping("/chat")
-    public String chat(@RequestParam("message") String message) {
-        return chatClient.prompt().user(message).call().content();
+    public String chat(@RequestHeader(value="username" ,required =false) String username, @RequestParam("message") String message) {
+        return chatClient.prompt().user(message+ " MY username is " +username).call().content();
     }
 }
